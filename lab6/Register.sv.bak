@@ -1,0 +1,15 @@
+
+/* 16 bit poseedge register*/
+module register_16 (input  logic Clk, LD, Reset,
+						  input  logic [15:0] IN,
+						  output logic [15:0] OUT);
+					
+			always_ff @ (posedge Clk)
+			begin
+				if (~Reset)				// clear on reset
+					OUT <= 16'h0;
+				else if (LoadEn)		// load the data if LD is high
+					OUT <= IN;
+			end
+
+endmodule

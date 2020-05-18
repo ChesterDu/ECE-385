@@ -1,0 +1,111 @@
+# Reading D:/Quartus-lite-19.1.0.670-windows/modelsim_ase/tcl/vsim/pref.tcl
+# do lab5_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus-lite-19.1.0.670-windows/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:27 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 15:07:27 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:27 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv 
+# -- Compiling module lab5_toplevel
+# 
+# Top level modules:
+# 	lab5_toplevel
+# End time: 15:07:27 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:27 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:07:27 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:28 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv 
+# -- Compiling module Dreg
+# 
+# Top level modules:
+# 	Dreg
+# End time: 15:07:28 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:28 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:07:28 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:28 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv 
+# -- Compiling module ADD_SUB9
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	ADD_SUB9
+# End time: 15:07:28 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new {C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:07:28 on Mar 26,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new" C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:07:28 on Mar 26,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:07:28 on Mar 26,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab5_toplevel
+# Loading work.Dreg
+# Loading work.reg_8
+# Loading work.ADD_SUB9
+# Loading work.full_adder
+# Loading work.control
+# Loading work.HexDriver
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 6000 ns
+# ** Warning: (vsim-8315) C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv(34): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/lab5_toplevel0/control
+# ** Warning: (vsim-8315) C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv(34): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/lab5_toplevel0/control
+# Success!
+# End time: 16:07:22 on Mar 26,2020, Elapsed time: 0:59:54
+# Errors: 0, Warnings: 2

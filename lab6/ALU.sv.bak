@@ -1,0 +1,7 @@
+
+/*ALU component*/
+module ALU(input  logic [15:0], SR1, SR2,
+			  input  logic [1:0] ALUK, 
+			  output logic [16:0] ALU_OUT);
+
+endmodule

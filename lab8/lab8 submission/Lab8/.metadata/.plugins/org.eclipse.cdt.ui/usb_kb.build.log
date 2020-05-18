@@ -1,0 +1,18 @@
+21:50:54 **** Incremental Build of configuration Nios II for project usb_kb ****
+make all 
+Info: Building ../usb_kb_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../usb_kb_bsp/
+[BSP build complete]
+Info: Compiling io_handler.c to obj/default/io_handler.o
+nios2-elf-gcc -xc -MP -MMD -c -I../usb_kb_bsp//HAL/inc -I../usb_kb_bsp/ -I../usb_kb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/io_handler.o io_handler.c
+io_handler.c: In function 'IO_read':
+io_handler.c:46:10: error: redeclaration of 'temp' with no linkage
+  alt_u16 temp;
+          ^
+io_handler.c:38:10: note: previous declaration of 'temp' was here
+  alt_u16 temp;
+          ^
+make: *** [obj/default/io_handler.o] Error 1
+
+21:50:57 Build Finished (took 2s.262ms)
+

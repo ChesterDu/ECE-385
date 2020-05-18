@@ -1,0 +1,213 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/simulation/modelsim
+vADD_SUB9
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1585206448
+!i10b 1
+!s100 YL=YPPCN_le=9holNf:9F2
+IJ[2@05ngN372YG0N7H8HR2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 adder_sv_unit
+S1
+R0
+Z5 w1585049461
+Z6 8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv
+Z7 FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv
+L0 3
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1585206448.000000
+Z10 !s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new
+Z14 tCvgOpt 0
+n@a@d@d_@s@u@b9
+vcontrol
+R1
+R2
+!i10b 1
+!s100 <<lEMXX45B`R51@D24hz=0
+Ic@;]EMk:?c^Z6T]Clf7[50
+R3
+!s105 control_sv_unit
+S1
+R0
+w1585052613
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/control.sv|
+!i113 1
+R12
+R13
+R14
+vDreg
+R1
+R2
+!i10b 1
+!s100 Dl@IaO4D=9D8GY<5^:?N@2
+ISnVUVN4^z84RMiK^mmd4M3
+R3
+!s105 DFF_sv_unit
+S1
+R0
+w1585044338
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/DFF.sv|
+!i113 1
+R12
+R13
+R14
+n@dreg
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 N`g6^9JB]ERFiCnzeKAVg2
+I`57a9H4aG8>Z;hFEciDWW0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 40
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+Z15 !s110 1585206447
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+I9Wdleni<W=;ZE4R<MXcn<1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1585037977
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z16 !s108 1585206447.000000
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vlab5_toplevel
+R1
+R15
+!i10b 1
+!s100 bg^UZCGc2IXETVG?Sbk@W1
+IXQ2?^2M@jMYZIQ;4S1Tl<2
+R3
+!s105 lab5_toplevel_sv_unit
+S1
+R0
+w1585052498
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/lab5_toplevel.sv|
+!i113 1
+R12
+R13
+R14
+vreg_8
+R1
+R15
+!i10b 1
+!s100 AXDzj?_?eZ4hKcKof@=bm2
+I>0cfVEMkL74koH83k`ek51
+R3
+!s105 register_8_sv_unit
+S1
+R0
+w1585044332
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/register_8.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 Q]3^L0FTf15Z0O_g:2kA83
+I0PaD5aL>2H2jTLVNcfURa0
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1585046610
+8C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv
+FC:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new|C:/Users/Yangkai/Desktop/2020Spring/ECE385/lab5_new/testbench.sv|
+!i113 1
+R12
+R13
+R14

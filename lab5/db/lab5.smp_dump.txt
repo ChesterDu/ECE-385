@@ -1,0 +1,20 @@
+
+State Machine - |lab5_toplevel|control:control|curr_state
+Name curr_state.S15 curr_state.S14 curr_state.S13 curr_state.S12 curr_state.S11 curr_state.S10 curr_state.S9 curr_state.S8 curr_state.S7 curr_state.S6 curr_state.S5 curr_state.S4 curr_state.S3 curr_state.S2 curr_state.S1 curr_state.S0 curr_state.S16 
+curr_state.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+curr_state.S1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+curr_state.S2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+curr_state.S3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+curr_state.S4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+curr_state.S5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+curr_state.S6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+curr_state.S7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+curr_state.S8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+curr_state.S9 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+curr_state.S10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S11 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S12 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S14 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S15 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+curr_state.S16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 

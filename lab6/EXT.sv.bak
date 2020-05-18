@@ -1,0 +1,31 @@
+/*Perform sign extention for 11 bits input and output 16 bits value*/
+module SEXT_11(input logic [10:0] IN
+					output logic [15:0] OUT);
+
+endmodule
+
+
+/*Perform sign extention for 9 bits input and output 16 bits value*/
+module SEXT_9(input logic [8:0] IN
+					output logic [15:0] OUT);
+
+endmodule
+
+/*Perform sign extention for 6 bits input and output 16 bits value*/
+module SEXT_6(input logic [5:0] IN
+				  output logic [15:0] OUT);
+
+endmodule
+
+/*Perform sign extention for 4 bits input and output 16 bits value*/
+module SEXT_4(input logic [3:0] IN
+				  output logic [15:0] OUT);
+
+endmodule
+
+
+/*Perform zero extention for 16 bits input and output 20 bits value*/
+module ZEXT_20(input logic [15:0] IN
+					output logic [19:0] OUT);
+
+endmodule
